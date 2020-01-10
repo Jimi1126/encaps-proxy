@@ -1,4 +1,4 @@
-#概述
+# 概述
 当你的对象（或第三方引用对象）需要扩展功能时，而你并不想在原有对象定义上做修改时，或者当你提供对象给他人使用时不希望更改对象里面的数据时，你可以尝试一下本模块。
 # 开始
 > npm install enc-proxy -save
@@ -28,7 +28,7 @@
 
   12 passing (9ms)
   ```
-#Demo
+# Demo
 使用encaps-proxy对数据库操作进行代理以实现日志记录，这里使用coffee编写的代码
 ```
 Proxy = require "encaps-proxy"
@@ -68,13 +68,13 @@ const proxy = new DBProxy (new DBHandler(option));
 proxy.insert(...) //这将产生日志
 ...
 ```
-#优化
+# 优化
 后续
-#更新日志
+# 更新日志
 时间|版本|内容
 --|--|--
 2020/01/10|1.0.0|新增
 
-#免责声明
+# 免责声明
 本工具仅用于学习交流使用，禁止用于商业用途，使用本工具所造成的的后果由使用者承担！
 有疑问请 mail to: [xfqing_mid@163.com](https://links.jianshu.com/go?to=mailto%3Axfqing_mid%40163.com)
