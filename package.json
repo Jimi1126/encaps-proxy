@@ -1,0 +1,29 @@
+{
+  "name": "encaps-proxy",
+  "version": "1.0.0",
+  "description": "一个将对象的行为进行封装以控制、扩展原对象的模块",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/so-hentai/encaps-proxy.git"
+  },
+  "keywords": [
+    "node",
+    "encapsulation",
+    "coffee",
+    "mocha"
+  ],
+  "author": "gambler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/so-hentai/encaps-proxy/issues"
+  },
+  "homepage": "https://github.com/so-hentai/encaps-proxy#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  }
+}
