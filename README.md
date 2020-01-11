@@ -37,8 +37,8 @@ LOG = global["mongoLogger"] || console
 # 数据库操作层代理
 ###
 class DBProxy extends Proxy
-	constructor: (target)->
-		super(target)
+	constructor: (target, security)->
+		super(target, security)
 	proxy: (f)->
 		that = @
 		if f.name is "connect"
