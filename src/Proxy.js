@@ -92,7 +92,7 @@
           return f.apply(that.target, arguments);
         } catch (error) {
           e = error;
-          return LOG.error(e.stack);
+          return console.trace(e.stack);
         }
       };
     }

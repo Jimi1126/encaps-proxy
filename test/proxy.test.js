@@ -1,4 +1,4 @@
-const Proxy = require("../src/Proxy");
+const Proxy = require("../Proxy");
 const assert = require("assert");
 
 let user = {

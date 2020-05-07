@@ -103,11 +103,12 @@ dist
 # TernJS port file
 .tern-port
 
-#coffee
+#local
 coffee/
-
-#test
+src/
 test/
 
 #git
-./gitignore
+.gitignore
+
+rollup.config.js
